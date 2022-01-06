@@ -1,0 +1,178 @@
+/* Category related settings */
+.catdescription
+{
+  margin-left: 0.5em;
+  width: 250px;
+}
+
+#catid
+{
+  display: none;
+}
+
+#catinfo
+{
+  margin-bottom: 1em;
+  width: 450px;
+}
+
+#catimagethumb
+{
+  margin: 5px 0 0 0;
+  width: 50px;
+}
+
+#catlistheader
+{
+  color: #294B5F;
+  font-size: 130%;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+.catlistline
+{
+  text-indent: 5mm;
+}
+
+/* Product related settings */
+#productcount
+{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  /* border-top: 1px solid #294B5F; */
+}
+
+#productid {
+  display: none;
+  vertical-align: top;
+}
+
+.img
+{
+  margin: 2px;
+  border: 1px solid #294B5F;
+  float: left;
+  text-align: center;
+}
+.img img
+{
+  display: inline;
+  height: auto;
+  width: 100px;
+  margin: 3px;
+  border: 1px solid #ffffff;
+}
+.img a:hover img
+{
+  border: 1px solid #294B5F;
+}
+
+#item_image {
+  max-width: 300px;
+}
+
+#producttable tr td {
+  vertical-align: top;
+}
+
+.productdesc
+{
+  vertical-align: top;
+  margin-left: 0.5em;
+  width: 500px;
+}
+
+div.productlist
+{
+  width: 100%;
+}
+
+.productlist table {
+  width: 100%;
+}
+.productlist table td {
+  padding: 5px 15px;
+  width: auto;
+}
+
+.productname
+{
+  vertical-align: top;
+  padding-bottom: 3px;
+  width: 300px;
+}
+
+.productprice
+{
+  color: #294B5F;
+  width: 30px;
+  text-align: right;
+}
+
+.productamount
+{
+  width: 50px;
+  text-align: right;
+}
+
+.productremove
+{
+  padding-left: 5px;
+}
+
+.totalamount
+{
+  font-size: 18px;
+  text-align: right;
+}
+
+#productpricesin
+{
+  padding-top: 30px;
+}
+
+div.attributelist
+{
+  padding-bottom: 3px;
+}
+tr.row1
+{
+  background-color: #fff;
+}
+
+tr.row2
+{
+  background-color: #ececec;
+}
+
+table.productattr
+{
+  table-layout: automatic;
+}
+
+.attrprice
+{
+  margin-bottom: 0.2em;
+  text-indent: 1cm;
+}
+.billtoinfo {
+  cursor: pointer;
+}
+
+.shiperror {
+  color: red;
+}
+
+@media (max-width: 450px) {
+
+.productlist table tr td, .productattr tr th {
+    display: inline;
+}
+
+#producttable tr td {
+    display: inline;
+}
+}
